@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar.js'
+import Categories from './components/Categories.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Navbar />
+      <img className="home-img" src="https://media.tacdn.com/media/attractions-content--1x-1/0b/a5/3c/74.jpg" alt="seattle"></img>
+      <p id="mission">Mission Statement</p>
+      <Categories />
     </div>
   );
 }

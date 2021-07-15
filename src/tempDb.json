@@ -1,0 +1,19 @@
+{
+    "clothing":[
+        {   "type": "shoe",
+            "id": 1,
+            "name": "shoe",
+            "image" : "https://media.discordapp.net/attachments/820596899416506398/865039203560456212/IMG_1532.jpeg?width=628&height=837"
+        },
+        {   "type": "dress",
+            "id": 2,
+            "name": "dress",
+            "image" : "https://media.discordapp.net/attachments/820596899416506398/865038944278282320/IMG_1534.jpeg?width=628&height=837"
+
+        },
+        {   "type": "pants",
+            "id": 2,
+            "name": "pants",
+            "image" : "https://media.discordapp.net/attachments/820596899416506398/865038599145914398/IMG_1520.jpeg?width=628&height=837"
+        }]
+}

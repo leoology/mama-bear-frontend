@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  background: white;
+  /* // position: fixed; */
+  z-index: 1000;
+  /* top: -50px; */
+  width:100%;
+  padding: 15px 0 ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: black;
+  border-style: solid;
+  /* // border-width: thick; */
+  
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  /* // left: -70%; */
+}
+.navbar .menu li a{
+  color:black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 50px;
+  /* // margin-left: 25px; */
+}
+
+.home-img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 49% 55%;
+  position: relative;
+  /* margin-top: 7%; */
+  color: grey;
+  opacity: .7px;
+
+}
+
+.app {
+  background-image: url("https://media.tacdn.com/media/attractions-content--1x-1/0b/a5/3c/74.jpg");
+  opacity: 0.5;
+}
+
+#mission {
+  font-family:'Times New Roman';
+  font-size: 28px;
+}
+
+.clothing-card{
+  width: 46%;
+  border-radius: 41px;
+  border-width: thick;
+  border-color: burlywood;
+  border-style: solid;
+}
+
+
+.categories {
+  display: flex;
+}
