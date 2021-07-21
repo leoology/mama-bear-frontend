@@ -1,7 +1,7 @@
 import React from 'react'
 import ClothingCard from './ClothingCard'
 // import db from './tempDb.json'
-class Categories extends React.Component{
+class ClothingContainer extends React.Component{
     state = {
         clothing: []
     }
@@ -28,4 +28,4 @@ class Categories extends React.Component{
      )
   }
 }
-export default Categories
+export default ClothingContainer
