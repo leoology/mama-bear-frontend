@@ -11,21 +11,21 @@ class SeasonContainer extends React.Component {
     }
     determineSeason(){
         const a = new Date().getMonth() + 1
-        if(a===12|1|2){
-            debugger
+        
+        if(a===12 || a === 1 || a === 2){
+            
             this.setState({season:"Winter", image:"https://engayla.com/wp-content/uploads/2019/11/winter-clothing-e1572933890557.jpg"})
 
         }
-        else if(a===3|4|5){
+        else if(a===3 || a === 4 || a === 5){
             this.setState({season:"Spring", image:"https://cdn.rtrcdn.com/assets/imgs/0520_Return_Mobile.jpg"})
         }
         
-        else if(a===6|7|8){
-            
+        else if(a=== 6 || a===7 || a===8){
             this.setState({season:"Summer", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROz2YySora0NoPvsxl0srodLh299dbhcVD2g&usqp=CAU"})
 
         }
-        else if(a===9|10|11){
+        else if(a===9 || a === 10 || a === 11){
             this.setState({season:"Autumn", image:"https://www.moneycrashers.com/wp-content/uploads/2019/01/transition-summer-wardrobe-fall-clothing-fashion.jpg"})
         }
         // switch (a){
@@ -43,13 +43,13 @@ class SeasonContainer extends React.Component {
     }
     createSeasonCard(){
         return (<div>
-            <SeasonCard img={this.state.image} season={this.state.season} />
+            <SeasonCard image={this.state.image} season={this.state.season} />
             </div>)
     }
     render(){
         return(
             <div>
-                {this.createSeasonCard}
+                {this.createSeasonCard()}
             </div>
         )
     }

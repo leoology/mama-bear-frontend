@@ -114,3 +114,34 @@
 .categories {
   display: flex;
 }
+#Summer {
+  background: #F9BA71;
+}
+#Winter {
+  background: #449595;
+}
+#Autumn {
+  background: #F08068;
+}
+#Spring {
+  background: #8AD35B;
+}
+.season {
+  display: inline-flex;
+  color: white;
+  font-size: xx-large;
+  padding: 50px;
+  margin: 50px;
+  font-weight: 900;
+}
+
+
+#season-card-h1 {
+  padding-right: 63px;
+}
+#season-image {
+  position: relative;
+  right: 50px;
+  width: 39.8%;
+  top: 11.409em;
+}
