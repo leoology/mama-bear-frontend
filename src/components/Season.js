@@ -3,7 +3,7 @@ class Season extends React.Component{
     render(){
         return(
             <div>
-
+                Hi
             </div>
         )
     }
