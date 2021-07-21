@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar.js'
-import Categories from './components/Categories.js'
-import Season from './components/Season'
+import ClothingContainer from './components/ClothingContainer.js'
+import SeasonContainer from './components/SeasonContainer'
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <img className="home-img" src="https://media.tacdn.com/media/attractions-content--1x-1/0b/a5/3c/74.jpg" alt="seattle"></img>
       <p id="mission">Mission Statement</p>
-      <Categories />
-      <Season />
+      <ClothingContainer />
+      <SeasonContainer />
     </div>
   );
 }
