@@ -42,6 +42,7 @@
 
 .navbar{
   background: white;
+  z-index: 1000;
   /* // position: fixed; */
   z-index: 1000;
   /* top: -50px; */
@@ -50,6 +51,7 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: black;
   border-top:rgb(135, 80, 166) 5px ;
+  border-bottom: rgb(70, 153, 147) 5px;
   border-style: solid;
   /* // border-width: thick; */
   

@@ -19,10 +19,10 @@ class SeasonCard extends React.Component{
 export default SeasonCard
 
 
-shirt {
-    tags: "yellow shirt gucci summer female"
-}
+// shirt {
+//     tags: "yellow shirt gucci summer female"
+// }
 
-search(keywords){
-    let clothes = tags.filter(tag => tag === keywords)
-}
+// search(keywords){
+//     let clothes = tags.filter(tag => tag === keywords)
+// }

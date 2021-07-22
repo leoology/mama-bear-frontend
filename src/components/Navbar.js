@@ -1,8 +1,12 @@
 import React from 'react'
 class Navbar extends React.Component{
+// handleScroll(){
+//     var header= document.getElementById("navbar")
+//     header.classList.toggle("sticky", window.scrollY>0)
+//     }
   render(){   
      return (
-        <nav className="navbar">
+        <nav className="navbar" id="navbar" onScroll={this.handleScroll}>
             <div className='max-width'>
                 <ul className="menu">
                     <li><a href="/home">Home</a></li>
